@@ -1,0 +1,72 @@
+body {
+  background-color:hsl(185, 75%, 39%);
+  background-image: url('../img/bg-pattern-top.svg'), url('../img/bg-pattern-bottom.svg');
+  background-position:
+  top -400px left -30px,
+  top 500px right ;
+  background-repeat: no-repeat;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+.main {
+  width: 350px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top-profile {
+  background-image: url('../img/bg-pattern-card.svg');
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 150px;
+}
+.top-profile img {
+  border: #FFFF solid 5px;
+  border-radius: 50%;
+  position: relative;
+  top: 95px;
+}
+.middle-profile {
+  background-color: #FFF;
+  margin: 0;
+  height: 150px;
+}
+.footer-profile {
+  background-color: #FFF;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  height: 90px;
+}
+.info {
+  padding-top: 80px;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin:0;
+}
+.footer-profile div {
+  width: 33.5%;
+  position: absolute;
+  padding: 20px;
+}
+.footer-profile-item-middle {
+  left: 28%;
+}
+.footer-profile-item-right {
+  left: 57%;
+}
+.f-bold {
+  font-weight:700;
+}
+.f-light {
+  color:hsl(0, 0%, 59%);
+}
+.f-small {
+  font-size: 14px;
+}
